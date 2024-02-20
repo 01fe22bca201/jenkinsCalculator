@@ -62,5 +62,10 @@ class Calculator{
         System.out.println("Result of Multiplication is: " + mul_result);
         float div_result = calc.division(operand_1, operand_2);
         System.out.println("Result of Division is: " + div_result);
+        extended_calculator e=new extended_calculator();
+        float square_res=e.square(operand_1);
+        System.out.println("square of a number:"+square_res);
+        float cube_res=e.cube(operand_1);
+        System.out.println("square of a number:"+cube_res);
     }
 }
